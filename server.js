@@ -6,9 +6,9 @@ import 'dotenv/config';
 app.get('/api/product', (req, res) => {
      res.send({
         user:{
-            name: "Kalyani",
+            name: "Kalyani Pawar",
             age:32,
-            contact:12254
+            contact: 77758906
         }
     })
 })
