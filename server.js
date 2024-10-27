@@ -3,6 +3,9 @@ const app = express();
 app.use(express.json());
 import 'dotenv/config';
 
+app.get('/api', () =>{
+    res.send("Hello World");
+});
 app.get('/api/product', (req, res) => {
      res.send({
         user:{
